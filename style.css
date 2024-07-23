@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", sans-serif;
+}
+.container{
+    display: flex;
+    
+}
+.sidebar{
+    background-color: rgb(144, 144, 144);
+    width: 250px;
+    height: 100vh;
+    position: relative;
+}
+.sidebar nav{
+    padding: 70px;
+    font-size: 20px;
+}
+.sidebar nav li{
+   list-style: none;
+    padding: 30px 0;
+    
+}
+.sidebar NAV ul li a  {
+    list-style: none;
+    color: black;
+     text-decoration:underline;
+}
+.sidebar NAV ul li a:hover{
+    color: blue;
+}
+.main{
+    width: 85vw;
+    height: 100VH;
+    background-image: linear-gradient(rgb(201, 205, 205) , rgb(121, 167, 117));
+}
+.HOME{
+    font-size: 30PX;
+    font-family: fantasy;
+    margin: 40PX;
+    text-decoration: underline;
+}
+.about{
+    background-color: rgb(213, 209, 209);
+    width: 80vw;
+    margin: 150px auto;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile img{
+    width: 400px;
+    height: 70vh;
+}
+.objective{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 30PX;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.name{
+font-size: 35px;
+font-family: "Oswald", sans-serif;
+font-weight: bold;
+}
+.DEV{
+font-size: 25px;
+font-family: "Oswald", sans-serif;
+}
+.buttons{
+    padding: 15px 5px ;
+}
+.buttons button{
+    background-color: rgb(0, 153, 255);
+    color: white;
+    border-radius: 30px;
+    padding: 8px;
+    font-size: 13px;
+    cursor: pointer;
+    height: 40px;
+    width: 120PX;
+}
+.buttons :hover{
+    background-color: white;
+    color:rgb(0, 153, 255) ;
+    border-radius: 30px;
+    height: 40px;
+    width: 120PX;   
+}
+.LINKEDIN{
+font-size: 17px;
+font-weight: 600;
+}
+.GIT{
+font-size: 17px;
+font-weight: 600;
+}
+.LINK{
+color: BLUE;
+margin: 5px;
+}
+.LINK1{
+    color: BLUE;
+    }
+/*ABOUT SECTION*/
+.container{
+    display: flex;
+    position: fixed;
+    font-family: fantasy;
+}
+.sidebar{
+    background-color: rgb(144, 144, 144);
+    width: 250px;
+    height: 200VH;
+     position: relative;
+    
+}
+.CONTAINER{
+    background-image: linear-gradient(rgb(201, 205, 205) , rgb(121, 167, 117));
+    width: 85vw;
+    height: 100vh;
+ }
+ .heading{
+    margin-left: 500px;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+ }
+ .about1{
+   font-size: 20px;
+   margin-left: 15px;
+ }
+ .skill{
+  padding: 25px;
+   margin-left: 500px;
+   font-family: fantasy;
+
+ }
+.image{
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    transform: 1s;
+}
+.image :hover{
+    transform: scale(1.3);
+    z-index: 1.5;
+}
+.html{
+    padding: 15px;
+    width: 120px;
+    margin-left: 20px;
+    border:2px solid black;
+    cursor: pointer;
+    height: 200PX;
+}
+.css{
+    border:2px solid black;
+    padding: 15px;
+    width: 150px;
+    margin-left: 35px;
+    cursor: pointer;
+    height: 200PX;
+}
+.javascript{
+    border:2px solid black;
+    padding: 20px;
+    width: 140px;
+    margin-left: 35px;
+    cursor: pointer;
+    height: 200PX;
+}
+.java{
+    border:2px solid black;
+    padding: 20px;
+    width: 120px;
+    margin-left: 35px;
+    cursor: pointer;
+    height: 200PX;
+}
+.mssql{
+    border:2px solid black;
+    padding: 15px;
+    width: 120px;
+    margin-left: 35px;
+    cursor: pointer;
+    height: 200px;
+}
+.csharp{
+    border:2px solid black;
+    padding: 20px;
+    width: 140px;
+    margin-left: 35px;
+    height: 200px;
+    cursor: pointer;
+}
+.asp{
+    border:2px solid black;
+    padding: 20px;
+    width: 140px;
+    margin-left: 35px;
+    margin-top: 10px;
+    height: 200px;
+    cursor: pointer;
+}
+.oops{
+    border:2px solid black;
+    padding: 20px;
+    width: 110px;
+    margin-left: 35px;
+    height: 200px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+/*EDUCATION SECTION */
+.sidebar{
+    background-color: rgb(144, 144, 144);
+    width: 250px;
+    height: 100vh;
+    position: relative;
+    
+}
+.EDU{
+    background-image: linear-gradient(rgb(201, 205, 205) , rgb(121, 167, 117));
+}
+.EDU h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 3px;
+    color: rgb(14, 14, 156);
+}
+.EDU h3{
+    margin-left: 78px;
+    font-size: 22px;
+    color: white;
+    background-color: rgb(34, 34, 237);
+    width: 200PX;
+    padding: 5PX;
+    margin-top: 10px;
+
+}
+.group{
+    margin-left: 100px;
+    list-style: none;
+    font-size: 17px;
+    padding: 22px;
+    border: 2px solid black;
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;
+    background-image: linear-gradient(rgb(168, 235, 173), rgb(93, 232, 93));
+}
+.group1{
+    margin-left: 100px;
+    list-style: none;
+    font-size: 17px;
+    padding: 22px;
+    border: 2px solid black;
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;
+    background-image: linear-gradient(rgb(168, 235, 173), rgb(93, 232, 93));
+}
+.group2{
+    margin-left: 100px;
+    list-style: none;
+    font-size: 17px;
+    padding: 22px;
+    border: 2px solid black;
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;
+    background-image: linear-gradient(rgb(168, 235, 173), rgb(93, 232, 93));
+}
+/*PROJECT SECTION */
+.totalpro{
+    background-image: linear-gradient(rgb(201, 205, 205) , rgb(121, 167, 117)); 
+}
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(31, 13, 225);
+    padding: 20PX;
+    
+}
+.TOPIC{
+    margin-left: 20PX;
+    font-size: 18PX;
+    color: white;
+    background-color: orangered;
+    padding: 5PX;
+    width: 830PX;
+}
+.GAME1{
+    margin-left: 69PX;
+    font-size: 16PX;
+    margin-top: 15PX;
+}
+.proimg{
+    display: flex;
+    justify-content: space-evenly;
+}
+.proimg1{
+    margin-left: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 20px;
+    width: 450px;
+}
+.proimg2{
+    margin-left: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 20px;
+    width: 450px;
+}
+.NAMECONT{
+    display: flex;
+}
+.TOPIC2{
+    margin-left: 20PX;
+    font-size: 18PX;
+    color: white;
+    background-color: orangered;
+    padding: 5PX;
+    width: 254PX;
+    margin-top: 10px;
+}
+.TOPIC3{
+    margin-left: 425PX;
+    font-size: 18PX;
+    color: white;
+    background-color: orangered;
+    padding: 5PX;
+    width: 254PX;
+    margin-top: 10PX;
+}
+.PAGE{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pro2img1{
+    margin-left: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 20px;
+    width: 450px;
+}
+.pro3img1{
+    margin-left: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 20px;
+    width: 450px;
+}
+/*experience */
+.exp{
+    background-image: linear-gradient(rgb(201, 205, 205) , rgb(121, 167, 117)); 
+}
+.internship{
+    padding: 10px;
+    color: white;
+    background-color: rgb(55, 55, 239);
+    margin: 20px;
+    width: 150px;
+}
+.OASIS {
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.webdev{
+    margin-left: 30px;
+    padding: 20px;
+}
+.codeclause{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.webdev1{
+    margin-left: 30px;
+    padding: 20px;
+}
+.certificate{
+    padding: 10px;
+    color: white;
+    background-color: rgb(55, 55, 239);
+    margin: 20px;
+    width: 200px;
+    margin-top: 5px;
+}
+.cer-about{
+    margin-left: 40px;
+    padding: 5px;
+}
+.container1{
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.box{
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 3s;
+    border: 2px solid black;
+    padding: 10px;
+}
+.box img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+.box :hover{
+    transform: scale(1.8);
+    z-index: 2.1;
+}
+/* contact form  */
+.contact{
+    background-image: linear-gradient(rgb(201, 205, 205) , rgb(121, 167, 117));
+}
+.contactform{
+    margin: 250px;
+    border: 2px solid black;
+    padding: 30px 40px ;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    margin-top: 200PX;
+    background-color: rgb(217, 217, 217);
+    
+}
+.contactform h1{
+    font-family:"Roboto Condensed", sans-serif ;
+    font-size:30px;
+    text-align: center;
+}
+.mail{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.mail input{
+    width: 500px;
+    margin-left: 35px;
+}
+.text{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.phone{
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+.phone input{
+    width: 500px; 
+    margin-left: 30px;
+}
+.query{
+    margin-top: 10px;
+    font-size: 20px;
+   display: flex;
+}
+.query textarea{
+    width: 500px;
+    height: 100px; 
+    margin-top: 10px;
+}
+.checkbox{
+    margin-top: 10px; 
+    font-size: 15px; 
+}
+ .button{
+    margin-top: 10px; 
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 300px;
+    background-color: rgb(16, 129, 228);
+ }
+ .button:hover{
+    background-color: white;
+    color:blue ;
+    
+ }
+ 
